@@ -1,0 +1,43 @@
+# ── Secrets & environment ──────────────────────────────────────────────────────
+.env
+.env.*
+*.key
+*.pem
+
+# ── Session log (AGENTS.md §2) ─────────────────────────────────────────────────
+log.txt
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Output artefacts ───────────────────────────────────────────────────────────
+output.csv
+
+# ── IDE / OS ───────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Node (if any tooling uses it) ──────────────────────────────────────────────
+node_modules/
